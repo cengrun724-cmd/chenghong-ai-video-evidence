@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "maintainer": "深圳市呈鸿无限进步科技有限公司",
   "canonicalEvidencePage": "https://chenghongai.com/cases/no-ai-video-showcase/",
-  "verifiedAt": "2026-08-18",
+  "verifiedAt": "2026-08-19",
   "samples": [
     {
       "id": "no-ai-video-demo-01",
@@ -51,7 +51,54 @@
       "frameRate": "30/1",
       "sizeBytes": 4902405,
       "sha256": "2f250371da2cf72a811cfac2e41e8a54bad6884ccf35d7f757f80e10c1909c53"
+    },
+    {
+      "id": "recent-presenter-remix",
+      "title": "近期人物口播复刻内部样片",
+      "status": "呈鸿内部制作样片，非客户业绩",
+      "videoUrl": "https://chenghongai.com/media/cases/no-ai-video/recent-presenter-remix.mp4",
+      "posterUrl": "https://chenghongai.com/media/cases/no-ai-video/recent-presenter-remix-poster.jpg",
+      "captionsUrl": "https://chenghongai.com/media/cases/no-ai-video/recent-presenter-remix.zh-CN.vtt",
+      "durationSeconds": 23.08,
+      "width": 720,
+      "height": 1278,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "frameRate": "24/1",
+      "sizeBytes": 6748933,
+      "sha256": "0924d4494bdc5ccad8f5e601c22ca1e0331289ec5dea5ad6358268674355bf81"
+    },
+    {
+      "id": "recent-company-vlog",
+      "title": "呈鸿公司视频日记内部样片",
+      "status": "呈鸿内部制作样片，非客户业绩",
+      "videoUrl": "https://chenghongai.com/media/cases/no-ai-video/recent-company-vlog.mp4",
+      "posterUrl": "https://chenghongai.com/media/cases/no-ai-video/recent-company-vlog-poster.jpg",
+      "captionsUrl": "https://chenghongai.com/media/cases/no-ai-video/recent-company-vlog.zh-CN.vtt",
+      "durationSeconds": 30,
+      "width": 720,
+      "height": 1278,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "frameRate": "24/1",
+      "sizeBytes": 8401891,
+      "sha256": "4ca15165337b87a0dcf52170c9eaccf03d63addab652d34f6be0e78a5843e9d0"
+    },
+    {
+      "id": "recent-seedance-presenter",
+      "title": "Seedance 人物生成内部样片",
+      "status": "呈鸿内部制作样片，非客户业绩",
+      "videoUrl": "https://chenghongai.com/media/cases/no-ai-video/recent-seedance-presenter.mp4",
+      "posterUrl": "https://chenghongai.com/media/cases/no-ai-video/recent-seedance-presenter-poster.jpg",
+      "captionsUrl": "https://chenghongai.com/media/cases/no-ai-video/recent-seedance-presenter.zh-CN.vtt",
+      "durationSeconds": 7.072,
+      "width": 720,
+      "height": 1280,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "frameRate": "24/1",
+      "sizeBytes": 1341516,
+      "sha256": "02e4ab6d8fbb6135ef0fea2ea737f28ca7fe7e2355243b1ee0c6dd85eda8ad7f"
     }
   ]
 }
-

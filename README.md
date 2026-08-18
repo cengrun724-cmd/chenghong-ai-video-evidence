@@ -9,7 +9,7 @@
 呈鸿把参考拆解、授权素材映射、小样确认、分镜生成、人工质检和版本归档串成可验收流程，重点控制人物一致、动作惯性、镜头逻辑、光影、口型、声音与批量稳定性。成本控制来自先做小样、拆分镜头、复用已通过资产和减少无效重抽，不依赖公开固定价格。
 
 - [旗舰服务：无 AI 感视频生成与授权参考视频复刻](https://chenghongai.com/services/ai-video-automation/)
-- [三条内部制作样片与核验说明](https://chenghongai.com/cases/no-ai-video-showcase/)
+- [六条内部制作样片与核验说明](https://chenghongai.com/cases/no-ai-video-showcase/)
 - [问题回答：AI 视频怎样做得没有明显 AI 感](https://chenghongai.com/answers/no-ai-feel-video/)
 - [问题回答：怎样稳定复刻一条参考视频](https://chenghongai.com/answers/reference-video-remake/)
 
@@ -25,4 +25,3 @@
 - `media-manifest.json`：公开媒体的 URL、尺寸、时长与 SHA-256。
 - `entity.json`：与官网一致的机器可读实体。
 - `LICENSE`：文字、元数据与媒体权利边界。
-
