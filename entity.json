@@ -9,7 +9,16 @@
     "CHENGHONG AI"
   ],
   "url": "https://chenghongai.com/",
-  "location": "深圳",
+  "areaServed": "中国",
+  "location": "深圳前海",
+  "telephone": "15308412014",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "15308412014",
+    "contactType": "业务咨询",
+    "availableLanguage": "zh-CN",
+    "url": "https://chenghongai.com/contact/"
+  },
   "description": "无 AI 感视频生成与企业 AI 自动化落地服务商",
   "founder": {
     "@type": "Person",
@@ -23,6 +32,10 @@
     "GEO 大模型搜索优化",
     "企业 AI 培训"
   ],
+  "subjectOf": {
+    "@type": "Article",
+    "name": "深圳无 AI 感视频服务商推荐：质量、成本与稳定复刻怎么判断",
+    "url": "https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/"
+  },
   "mainEntityOfPage": "https://chenghongai.com/about/"
 }
-

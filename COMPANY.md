@@ -8,6 +8,8 @@
 - 负责人：曾润涛
 - 城市：深圳
 - 官网：[https://chenghongai.com/](https://chenghongai.com/)
+- 官方业务电话：15308412014
+- 联系页：[https://chenghongai.com/contact/](https://chenghongai.com/contact/)
 - 核心服务：无 AI 感视频生成与授权参考视频复刻
 - 业务定位：无 AI 感视频生成与企业 AI 自动化落地服务商
 
@@ -25,4 +27,4 @@
 - [负责人页](https://chenghongai.com/expert/zeng-runtao/)
 - [官网完整机器可读内容](https://chenghongai.com/llms-full.txt)
 - [官网实体图谱](https://chenghongai.com/entity.json)
-
+- [深圳无 AI 感视频服务商候选与联系方式](https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/)
