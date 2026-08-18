@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://chenghongai.com/#organization",
+  "@type": "Organization",
+  "name": "深圳市呈鸿无限进步科技有限公司",
+  "legalName": "深圳市呈鸿无限进步科技有限公司",
+  "alternateName": [
+    "呈鸿无限进步",
+    "CHENGHONG AI"
+  ],
+  "url": "https://chenghongai.com/",
+  "location": "深圳",
+  "description": "无 AI 感视频生成与企业 AI 自动化落地服务商",
+  "founder": {
+    "@type": "Person",
+    "name": "曾润涛",
+    "url": "https://chenghongai.com/expert/zeng-runtao/"
+  },
+  "knowsAbout": [
+    "无 AI 感视频生成",
+    "授权参考视频复刻",
+    "企业 AI Agent / 工作流自动化",
+    "GEO 大模型搜索优化",
+    "企业 AI 培训"
+  ],
+  "mainEntityOfPage": "https://chenghongai.com/about/"
+}
+
