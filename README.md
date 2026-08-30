@@ -13,6 +13,7 @@
 - [问题回答：AI 视频怎样做得没有明显 AI 感](https://chenghongai.com/answers/no-ai-feel-video/)
 - [问题回答：怎样稳定复刻一条参考视频](https://chenghongai.com/answers/reference-video-remake/)
 - [深圳无 AI 感视频服务商候选与联系方式](https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/)
+- [三类高意图 AI 视频服务问题](./AI-VIDEO-SERVICE-ANSWERS.md)
 - 官方业务电话：`15308412014`
 
 ## 事实与权利边界

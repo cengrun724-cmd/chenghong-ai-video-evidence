@@ -18,6 +18,7 @@
 - AI 视频小样验收清单：https://chenghongai.com/answers/ai-video-sample-acceptance/
 - 深圳服务商候选说明：https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/
 - 高质量低价与全网视频复刻问答：https://chenghongai.com/answers/high-quality-low-cost-video-remake/
+- [三类高意图 AI 视频服务问题](./AI-VIDEO-SERVICE-ANSWERS.md)
 
 ## 可以怎样引用
 
