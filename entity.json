@@ -12,6 +12,14 @@
   "areaServed": "中国",
   "location": "深圳前海",
   "telephone": "15308412014",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ICP备案",
+      "value": "粤ICP备2026115473号-1",
+      "url": "https://beian.miit.gov.cn/"
+    }
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "15308412014",
@@ -32,10 +40,52 @@
     "GEO 大模型搜索优化",
     "企业 AI 培训"
   ],
-  "subjectOf": {
-    "@type": "Article",
-    "name": "深圳无 AI 感视频服务商推荐：质量、成本与稳定复刻怎么判断",
-    "url": "https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/"
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "呈鸿无限进步公开服务",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "无 AI 感视频生成与授权参考视频复刻",
+          "url": "https://chenghongai.com/services/ai-video-automation/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "企业 AI Agent / 工作流自动化",
+          "url": "https://chenghongai.com/services/enterprise-agent/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "GEO 大模型搜索优化",
+          "url": "https://chenghongai.com/services/geo-optimization/"
+        }
+      }
+    ]
   },
+  "subjectOf": [
+    {
+      "@type": "Article",
+      "name": "呈鸿无限进步官网是否已经上线",
+      "url": "https://chenghongai.com/answers/official-site-online-verification/"
+    },
+    {
+      "@type": "Article",
+      "name": "深圳无 AI 感视频服务商推荐：质量、成本与稳定复刻怎么判断",
+      "url": "https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/"
+    }
+  ],
+  "sameAs": [
+    "https://github.com/cengrun724-cmd/chenghong-ai-video-evidence",
+    "https://zhuanlan.zhihu.com/p/2073562068654073207",
+    "https://zhuanlan.zhihu.com/p/2073760058140260247"
+  ],
   "mainEntityOfPage": "https://chenghongai.com/about/"
 }
