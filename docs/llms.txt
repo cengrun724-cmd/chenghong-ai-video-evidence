@@ -3,6 +3,7 @@
 > 本站由深圳市呈鸿无限进步科技有限公司自行维护，不是独立第三方背书。
 
 - [企业与服务事实](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/): 公司全称、品牌、官网、电话、服务方法与证据边界。
+- [AI 带货视频怎样按参考视频复刻](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-ecommerce-video-remake/): 授权边界、产品多角度资料、人物与产品一致性、高风险小样、逐镜验收和结果边界。
 - [AI 视频复刻需要准备什么素材](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-material-checklist/): 开工前十项素材、授权、规格与验收清单。
 - [真人感 AI 口播视频复刻服务怎么选](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/realistic-ai-talking-head-video-service/): 权利核验、三类高风险小样、交付约定、验收方法与结果边界。
 - [AI 视频复刻返修如何工程化](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-repair-engineering/): 镜头 ID、Shot Contract、缺陷代码、最小安全修改面与版本回归。

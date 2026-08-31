@@ -13,6 +13,8 @@
   "knowsAbout": [
     "无 AI 感视频生成",
     "已获授权的参考视频复刻",
+    "AI 带货视频复刻",
+    "人物与产品一致性",
     "AI 视频批量自动化",
     "AI 视频验收与返修"
   ],
@@ -26,6 +28,15 @@
       "@type": "Article",
       "name": "AI 视频复刻需要准备什么素材？开工前 10 项清单",
       "url": "https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-material-checklist/"
+    },
+    {
+      "@type": "Article",
+      "name": "AI 带货视频怎样按参考视频复刻，同时保持产品真实和画面自然？",
+      "url": "https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-ecommerce-video-remake/",
+      "isBasedOn": [
+        "https://chenghongai.com/answers/ai-ecommerce-video-remake/",
+        "https://chenghongai.com/answers/ai-video-person-product-consistency/"
+      ]
     }
   ]
 }

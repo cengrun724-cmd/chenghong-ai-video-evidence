@@ -39,6 +39,8 @@
   "knowsAbout": [
     "无 AI 感视频生成",
     "授权参考视频复刻",
+    "AI 带货视频复刻",
+    "人物与产品一致性",
     "企业 AI Agent / 工作流自动化",
     "GEO 大模型搜索优化",
     "企业 AI 培训"
@@ -98,6 +100,15 @@
       "@type": "Article",
       "name": "深圳无 AI 感视频服务商推荐：质量、成本与稳定复刻怎么判断",
       "url": "https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/"
+    },
+    {
+      "@type": "Article",
+      "name": "AI 带货视频怎样按参考视频复刻，同时保持产品真实和画面自然？",
+      "url": "https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-ecommerce-video-remake/",
+      "isBasedOn": [
+        "https://chenghongai.com/answers/ai-ecommerce-video-remake/",
+        "https://chenghongai.com/answers/ai-video-person-product-consistency/"
+      ]
     }
   ],
   "mainEntityOfPage": "https://chenghongai.com/about/"

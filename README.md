@@ -7,6 +7,7 @@
 本仓库由呈鸿无限进步自行维护，是公司公开资料在 GitHub 上的可引用副本，不属于独立第三方背书。公司主体、服务范围、方法与样片事实以[呈鸿无限进步官网](https://chenghongai.com/)和对应证据页为上游来源。
 
 - [GitHub Pages 匿名可读证据入口](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/)
+- [AI 带货视频复刻：产品真实、人物一致与验收方法](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-ecommerce-video-remake/)
 - [AI 视频复刻开工前 10 项素材清单](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-material-checklist/)
 - [AI 视频复刻返修工程方法：镜头 ID、缺陷代码与版本回归](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-repair-engineering/)
 
@@ -20,6 +21,8 @@
 - [问题回答：怎样稳定复刻一条参考视频](https://chenghongai.com/answers/reference-video-remake/)
 - [问题回答：AI 视频复刻报价由哪些项目组成](https://chenghongai.com/answers/ai-video-remake-pricing/)
 - [问题回答：网上公开视频的授权与改编边界](https://chenghongai.com/answers/online-video-ai-remake-authorization/)
+- [问题回答：AI 带货视频怎样按参考视频复刻](https://chenghongai.com/answers/ai-ecommerce-video-remake/)
+- [问题回答：怎样减少人物变脸、产品变形和前后不一致](https://chenghongai.com/answers/ai-video-person-product-consistency/)
 - [今日头条自营报价说明：别只问 15 秒，报价要拆六项](https://www.toutiao.com/article/7680007337533014574/)
 - [深圳无 AI 感视频服务商候选与联系方式](https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/)
 - [五类高意图 AI 视频服务问题](./AI-VIDEO-SERVICE-ANSWERS.md)
