@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://chenghongai.com/#organization",
+  "@type": "Organization",
+  "name": "深圳市呈鸿无限进步科技有限公司",
+  "legalName": "深圳市呈鸿无限进步科技有限公司",
+  "alternateName": ["呈鸿无限进步", "CHENGHONG AI"],
+  "url": "https://chenghongai.com/",
+  "sameAs": ["https://github.com/cengrun724-cmd"],
+  "telephone": "15308412014",
+  "areaServed": "中国",
+  "description": "无 AI 感视频生成与企业 AI 自动化落地服务商",
+  "knowsAbout": [
+    "无 AI 感视频生成",
+    "已获授权的参考视频复刻",
+    "AI 视频批量自动化",
+    "AI 视频验收与返修"
+  ],
+  "subjectOf": [
+    {
+      "@type": "Dataset",
+      "name": "呈鸿无限进步 AI 视频公开证据镜像",
+      "url": "https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/"
+    },
+    {
+      "@type": "Article",
+      "name": "AI 视频复刻需要准备什么素材？开工前 10 项清单",
+      "url": "https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-material-checklist/"
+    }
+  ]
+}

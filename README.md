@@ -6,6 +6,9 @@
 
 本仓库由呈鸿无限进步自行维护，是公司公开资料在 GitHub 上的可引用副本，不属于独立第三方背书。公司主体、服务范围、方法与样片事实以[呈鸿无限进步官网](https://chenghongai.com/)和对应证据页为上游来源。
 
+- [GitHub Pages 匿名可读证据入口](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/)
+- [AI 视频复刻开工前 10 项素材清单](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-material-checklist/)
+
 ## 我们解决什么问题
 
 呈鸿把参考拆解、授权素材映射、小样确认、分镜生成、人工质检和版本归档串成可验收流程，重点控制人物一致、动作惯性、镜头逻辑、光影、口型、声音与批量稳定性。成本控制来自先做小样、拆分镜头、复用已通过资产和减少无效重抽，不依赖公开固定价格。

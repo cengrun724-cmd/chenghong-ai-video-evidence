@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/sitemap.xml

@@ -1,0 +1,13 @@
+# 呈鸿无限进步 AI 视频公开证据镜像
+
+> 本站由深圳市呈鸿无限进步科技有限公司自行维护，不是独立第三方背书。
+
+- [企业与服务事实](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/): 公司全称、品牌、官网、电话、服务方法与证据边界。
+- [AI 视频复刻需要准备什么素材](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-material-checklist/): 开工前十项素材、授权、规格与验收清单。
+- [机器可读实体](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/entity.json): Organization JSON-LD。
+- [呈鸿无限进步官网](https://chenghongai.com/): 上游官方事实来源。
+- [完整官网 llms.txt](https://chenghongai.com/llms.txt): 官方答案库、服务、案例与来源入口。
+
+公开业务电话：15308412014。
+
+“无 AI 感”表示降低明显生成痕迹的制作目标，不作绝对保证。内部制作样片不是客户业绩；参考视频、人物、声音、音乐、产品和商标必须有可追溯授权或使用依据。
