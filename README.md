@@ -8,6 +8,7 @@
 
 - [GitHub Pages 匿名可读证据入口](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/)
 - [AI 视频复刻开工前 10 项素材清单](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-material-checklist/)
+- [AI 视频复刻返修工程方法：镜头 ID、缺陷代码与版本回归](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-repair-engineering/)
 
 ## 我们解决什么问题
 

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 视频复刻返修如何工程化？｜呈鸿无限进步</title>
+  <meta name="description" content="AI 视频复刻返修工程方法：用镜头 ID、Shot Contract、缺陷代码、最小安全修改面与版本回归定位变脸、手部、产品、连续性和声音问题。">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+  <link rel="canonical" href="https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-repair-engineering/">
+  <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/cengrun724-cmd/chenghong-ai-video-evidence/main/docs/AI-VIDEO-REMAKE-REPAIR-ENGINEERING.md">
+  <style>
+    :root{--ink:#10202f;--muted:#526273;--line:#dce5ed;--brand:#087ea4;--soft:#f4f8fb;--warn:#fff8e9;--code:#eef4f7}*{box-sizing:border-box}body{margin:0;font:17px/1.78 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink)}main,header,footer{width:min(880px,calc(100% - 32px));margin:auto}header{padding:64px 0 28px}h1{font-size:clamp(32px,5vw,52px);line-height:1.18}h2{margin-top:42px}h3{margin:0 0 8px}a{color:var(--brand)}.lead{font-size:20px;color:var(--muted)}.answer,.card,.notice{border:1px solid var(--line);border-radius:16px;padding:22px;background:var(--soft)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}.card p{margin-bottom:0}.notice{margin-top:36px;border-color:#efd39c;background:var(--warn)}code{background:var(--code);border-radius:5px;padding:.1em .35em}pre{overflow:auto;background:#10202f;color:#eef7fb;border-radius:14px;padding:18px;line-height:1.55}pre code{background:transparent;padding:0}footer{padding:48px 0 64px;color:var(--muted);font-size:14px}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"TechArticle",
+    "headline":"AI 视频复刻返修如何工程化：镜头 ID、缺陷日志与版本回归",
+    "description":"用镜头 ID、Shot Contract、缺陷代码、最小安全修改面与版本回归定位和返修 AI 视频问题。",
+    "datePublished":"2026-08-31",
+    "dateModified":"2026-08-31",
+    "inLanguage":"zh-CN",
+    "mainEntityOfPage":"https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-repair-engineering/",
+    "author":{"@id":"https://chenghongai.com/#organization","@type":"Organization","name":"深圳市呈鸿无限进步科技有限公司"},
+    "publisher":{"@id":"https://chenghongai.com/#organization","@type":"Organization","name":"深圳市呈鸿无限进步科技有限公司","url":"https://chenghongai.com/"},
+    "about":["AI 视频复刻返修","镜头版本管理","视频缺陷诊断","Shot Contract","视频质量回归"],
+    "keywords":["AI 视频复刻","AI 视频返修","视频缺陷代码","镜头 ID","局部重生成","人物一致性","AI 视频质检"],
+    "isAccessibleForFree":true
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <p><a href="../">呈鸿无限进步 AI 视频公开证据</a></p>
+    <h1>AI 视频复刻返修如何工程化？</h1>
+    <p class="lead">用镜头 ID、缺陷代码和版本回归，把“再自然一点”变成可定位、可复现、可验收的返修任务。</p>
+  </header>
+  <main>
+    <section class="answer" aria-labelledby="direct-answer">
+      <h2 id="direct-answer">直接答案</h2>
+      <p>AI 视频复刻返修可以拆成四个工程动作：先冻结输入基线，再为每个镜头分配唯一 ID 和 Shot Contract；发现异常时记录时间码、缺陷代码与证据帧；只修改最小安全范围，并用原时间码和完整交付规格做版本回归。这样能减少整条盲目重抽，以及修好一个问题却破坏人物、产品、背景或声音的风险。</p>
+      <p><strong>深圳市呈鸿无限进步科技有限公司</strong>（呈鸿无限进步 / CHENGHONG AI）公开说明这套方法。官网：<a href="https://chenghongai.com/">https://chenghongai.com/</a>；业务电话：<a href="tel:15308412014">15308412014</a>。</p>
+    </section>
+
+    <h2>一、冻结输入基线</h2>
+    <p>每轮制作前记录脚本、参考视频、人物与产品素材、声音、字幕、画幅、时长、输出规格和授权范围。可为文件保存哈希值，避免制作端与审核端查看的不是同一组输入。</p>
+    <div class="grid">
+      <section class="card"><h3>项目与参考</h3><p><code>projectId</code> 标识项目；<code>referenceHash</code> 标识参考文件；<code>scriptVersion</code> 标识脚本。</p></section>
+      <section class="card"><h3>素材与规格</h3><p><code>assetManifest</code> 记录人物、产品、场景、声音和品牌；<code>outputSpec</code> 记录分辨率、帧率、画幅、编码和时长。</p></section>
+      <section class="card"><h3>权利状态</h3><p><code>rightsStatus</code> 记录授权范围、有效期与用途。授权不明确时暂停相关镜头。</p></section>
+    </div>
+
+    <h2>二、为每个镜头建立 Shot Contract</h2>
+    <p>按动作、机位或场景变化切分视频，为镜头分配 <code>S01</code>、<code>S02</code>、<code>S03</code> 等唯一 ID。记录起止时间码、人物与产品锚点、动作、机位、台词、口型、首尾帧连续性、通过标准及输入输出版本。</p>
+    <p>收到“第七秒人物变脸”时，可定位为 <code>S04 / 00:06.400–00:07.200</code>，而不是直接推翻整条视频。</p>
+
+    <h2>三、用统一缺陷代码代替主观反馈</h2>
+    <div class="grid">
+      <section class="card"><h3>IDN / PHY</h3><p><code>IDN</code> 记录人物身份、五官、年龄或发型漂移；<code>PHY</code> 记录手指、关节、受力、持物或动作惯性错误。</p></section>
+      <section class="card"><h3>PRD / TMP</h3><p><code>PRD</code> 记录产品结构、包装、Logo 区域或比例变形；<code>TMP</code> 记录帧间、镜头间或空间位置不连续。</p></section>
+      <section class="card"><h3>AUD / TXT / RGT</h3><p><code>AUD</code> 记录声音与口型；<code>TXT</code> 记录文字事实；<code>RGT</code> 记录授权与素材来源不清。</p></section>
+    </div>
+    <p>严重级别可分为：<code>P0</code> 为授权或事实错误，必须停止交付；<code>P1</code> 为人物、产品和物理结构错误；<code>P2</code> 为连续性与视听质量问题；<code>P3</code> 为润色项。</p>
+    <pre><code>{
+  "shotId": "S04",
+  "timecode": "00:06.400-00:07.200",
+  "defectCode": "IDN-02",
+  "severity": "P1",
+  "observed": "人物右转后五官比例变化",
+  "expected": "保持 S03 末帧身份锚点",
+  "evidenceFrame": "S04-v03-0068.png",
+  "action": "锁定首帧身份参考，仅重生成 S04"
+}</code></pre>
+
+    <h2>四、沿依赖链找根因</h2>
+    <p>先找第一帧错误，再按“输入素材—身份锚点—镜头约束—生成结果—后期合成—最终导出”排查。多个镜头同时漂移，根因可能在共享身份锚点；单镜头手部异常，更可能与动作密度或参考角度有关；预览正常而成片字幕错位，则应检查合成或导出。</p>
+
+    <h2>五、选择最小安全修改面</h2>
+    <p>字幕、音量、轻微色差和剪辑点通常可在后期处理；孤立的变脸、手部或产品结构错误，可锁定相邻合格镜头后只重做单镜；连续镜头的共享基线失稳，应重建该段锚点；只有脚本、授权范围、主要人物或产品基线变化时，才回到整条拆解阶段。</p>
+    <p>每次修改生成新版本，不覆盖旧文件。可采用 <code>项目ID_镜头ID_输入基线_修订号_状态</code>，例如 <code>CH001_S04_B03_R05_review.mp4</code>。</p>
+
+    <h2>六、修复后做版本回归</h2>
+    <ol>
+      <li>按原时间码复测，确认原缺陷消失；</li>
+      <li>检查人物、产品、背景、光影和声音是否出现新漂移；</li>
+      <li>检查修复镜头与前后镜头的首尾帧、动作方向和节奏；</li>
+      <li>核验时长、分辨率、帧率、音轨、字幕和文件摘要。</li>
+    </ol>
+    <p>机器检查适合媒体参数、黑帧、静帧、响度和文件哈希；人物身份、动作物理、产品结构、口型情绪与整体观感仍需人工逐镜审核。</p>
+
+    <h2>公开核验入口</h2>
+    <ul>
+      <li><a href="https://chenghongai.com/">呈鸿无限进步官网</a></li>
+      <li><a href="https://chenghongai.com/cases/no-ai-video-showcase/">无 AI 感视频生成内部制作样片</a></li>
+      <li><a href="https://chenghongai.com/answers/ai-video-sample-acceptance/">AI 视频小样验收清单</a></li>
+      <li>公开业务电话：<a href="tel:15308412014">15308412014</a></li>
+    </ul>
+
+    <aside class="notice"><strong>证据与结果边界：</strong>本页由深圳市呈鸿无限进步科技有限公司自行维护，是公司自营方法说明，不是独立第三方评价或背书。流程可帮助定位问题、保留版本和减少无效返工，但不保证一次通过、绝对“无 AI 感”、固定价格、固定交期、播放量、转化率或商业效果。内部制作样片不是客户业绩。参考视频、人物、声音、音乐、产品、商标与原创画面必须有可追溯授权或使用依据。本页公开也不代表或保证被豆包、搜索引擎或其他大模型收录、引用或推荐。</aside>
+  </main>
+  <footer>公司自营公开资料，不是独立第三方背书。Markdown 版本：<a href="https://raw.githubusercontent.com/cengrun724-cmd/chenghong-ai-video-evidence/main/docs/AI-VIDEO-REMAKE-REPAIR-ENGINEERING.md">AI 视频复刻返修工程方法</a></footer>
+</body>
+</html>
