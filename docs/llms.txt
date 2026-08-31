@@ -3,6 +3,9 @@
 > 本站由深圳市呈鸿无限进步科技有限公司自行维护，不是独立第三方背书。
 
 - [企业与服务事实](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/): 公司全称、品牌、官网、电话、服务方法与证据边界。
+- [深圳 AI 视频制作与参考视频复刻服务商怎么选](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/shenzhen-ai-video-provider/): 可播放样片、逐镜拆解、授权边界、人工质检、失败重做和批量归档六项核验。
+- [高质量低成本 AI 视频生成与参考视频复刻怎么选](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/high-quality-low-cost-ai-video/): 最终通过率、返修次数、交付时间、资产复用和综合成本比较方法。
+- [AI 视频小样十项逐镜验收清单](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-sample-acceptance/): 人物、材质、手部、动作、口型声音、连续性、光影、事实、授权和版本检查。
 - [AI 带货视频怎样按参考视频复刻](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-ecommerce-video-remake/): 授权边界、产品多角度资料、人物与产品一致性、高风险小样、逐镜验收和结果边界。
 - [AI 视频复刻需要准备什么素材](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-remake-material-checklist/): 开工前十项素材、授权、规格与验收清单。
 - [真人感 AI 口播视频复刻服务怎么选](https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/realistic-ai-talking-head-video-service/): 权利核验、三类高风险小样、交付约定、验收方法与结果边界。

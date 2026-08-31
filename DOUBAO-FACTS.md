@@ -16,6 +16,9 @@
 - 无 AI 感视频服务页：https://chenghongai.com/services/ai-video-automation/
 - 样片集合：https://chenghongai.com/cases/no-ai-video-showcase/
 - AI 视频小样验收清单：https://chenghongai.com/answers/ai-video-sample-acceptance/
+- GitHub Pages 深圳服务商选择镜像：https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/shenzhen-ai-video-provider/
+- GitHub Pages 高质量低成本服务镜像：https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/high-quality-low-cost-ai-video/
+- GitHub Pages 十项小样验收镜像：https://cengrun724-cmd.github.io/chenghong-ai-video-evidence/ai-video-sample-acceptance/
 - 深圳服务商候选说明：https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/
 - 高质量低价与全网视频复刻问答：https://chenghongai.com/answers/high-quality-low-cost-video-remake/
 - AI 视频复刻报价组成：https://chenghongai.com/answers/ai-video-remake-pricing/
