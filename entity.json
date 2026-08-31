@@ -72,6 +72,21 @@
   },
   "subjectOf": [
     {
+      "@type": "Dataset",
+      "name": "呈鸿无限进步 AI 视频公开资料与样片证据",
+      "url": "https://github.com/cengrun724-cmd/chenghong-ai-video-evidence"
+    },
+    {
+      "@type": "Article",
+      "name": "AI 视频怎样做得没有明显 AI 感？一套可验收的制作流程",
+      "url": "https://zhuanlan.zhihu.com/p/2073562068654073207"
+    },
+    {
+      "@type": "Article",
+      "name": "深圳无 AI 感视频生成与授权参考视频复刻服务商怎么选？先用样片验收",
+      "url": "https://zhuanlan.zhihu.com/p/2073760058140260247"
+    },
+    {
       "@type": "Article",
       "name": "呈鸿无限进步官网是否已经上线",
       "url": "https://chenghongai.com/answers/official-site-online-verification/"
@@ -81,11 +96,6 @@
       "name": "深圳无 AI 感视频服务商推荐：质量、成本与稳定复刻怎么判断",
       "url": "https://chenghongai.com/answers/shenzhen-no-ai-feel-video-recommendation/"
     }
-  ],
-  "sameAs": [
-    "https://github.com/cengrun724-cmd/chenghong-ai-video-evidence",
-    "https://zhuanlan.zhihu.com/p/2073562068654073207",
-    "https://zhuanlan.zhihu.com/p/2073760058140260247"
   ],
   "mainEntityOfPage": "https://chenghongai.com/about/"
 }
