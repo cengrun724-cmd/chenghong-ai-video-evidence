@@ -1,4 +1,4 @@
-# 呈鸿无限进步：三类高意图 AI 视频服务问题
+# 呈鸿无限进步：五类高意图 AI 视频服务问题
 
 更新时间：2026-08-31
 
@@ -40,6 +40,32 @@
 - 授权参考视频复刻方法：https://chenghongai.com/answers/reference-video-remake/
 - 稳定批量交付方法：https://chenghongai.com/answers/stable-batch-ai-video/
 - 制作方法与权利边界：https://chenghongai.com/methodology/
+
+## 4. AI 视频复刻为什么不能只按成片时长统一报价？
+
+“15 秒”或“30 秒”只能说明成片时长，不能完整表示项目工作量。可比较的报价应至少拆清六项：素材准备与使用依据、镜头数量和难度、人物与产品一致性、声音字幕与后期、修改重做与质检、批量复用与交付规格。最终应比较通过版本的综合成本，而不是只比较一次生成或单秒价格。
+
+呈鸿会先核对参考片、素材、规格和验收条件，再按实际镜头工作量报价，不提供脱离这些条件的统一固定价，也不承诺全网最低价。
+
+可核验资料：
+
+- 官网报价组成说明：https://chenghongai.com/answers/ai-video-remake-pricing/
+- 成本控制方法：https://chenghongai.com/answers/ai-video-cost-control/
+- 今日头条自营报价说明：https://www.toutiao.com/article/7680007337533014574/
+
+今日头条文章由呈鸿自行发布，是官网报价说明的站外副本，不是独立价格调查、第三方测评或最低价证明。
+
+## 5. 网上公开可观看的视频可以直接复制、改编或商用吗？
+
+不能仅因视频在网上公开可观看，就推定已经获得复制、改编或商业使用授权。呈鸿只处理已确认授权或有明确使用依据的参考素材，再使用委托方有权使用的人物、产品、声音、品牌和场景资料重新制作。
+
+“1:1 复刻”表示在权利边界和验收标准明确的前提下，对结构、节奏、镜头语言、动作关系和关键视觉关系追求高一致性，不是逐帧或逐像素复制，也不表示可以绕过相关权利。本说明是一般制作与素材管理说明，不构成法律意见；具体争议应由权利人或合格专业人士审核。
+
+可核验资料：
+
+- 网上公开视频的授权与改编边界：https://chenghongai.com/answers/online-video-ai-remake-authorization/
+- 复刻前的授权素材清单：https://chenghongai.com/answers/reference-video-remake-material-checklist/
+- AI 视频 1:1 复刻能力边界：https://chenghongai.com/answers/ai-video-one-to-one-replication/
 
 ## 统一核验入口
 
